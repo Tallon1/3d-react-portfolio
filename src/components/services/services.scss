@@ -1,0 +1,39 @@
+@import "../../portfolio.scss";
+.services {
+  background: linear-gradient(180deg, #0c0c1d, #111132);
+  overflow: hidden;
+}
+
+.main-container {
+  height: 100%;
+  width: 100%;
+  align-content: center;
+  padding-left: 25px;
+  overflow-y: scroll;
+  padding-right: 48px; /* Increase/decrease this value for cross-browser compatibility */
+  box-sizing: content-box; /* So the width will be 100% + 17px */
+}
+
+.text-container {
+  padding: 50px;
+  padding-top: 100px;
+  padding-bottom: 10px;
+
+  @include mobile {
+    padding-top: 100px;
+    padding-bottom: 10px;
+  }
+}
+
+.subhead-text {
+  @include mobile {
+    font-size: 1.5rem !important;
+  }
+}
+
+.gap-12 {
+  @include mobile {
+    margin-left: -20px;
+    gap: 1.25rem !important;
+  }
+}

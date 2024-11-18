@@ -52,13 +52,6 @@ const Hero = () => {
             Web Developer & UI Designer
           </motion.h1>
           <motion.div variants={textVariants} className="buttons">
-            {/* <motion.button variants={textVariants}>
-              See my Latest Works
-            </motion.button>
-            <motion.button
-            variants={textVariants}>
-                <a href="https://www.tallonantiques.com/" target="_blank">Contact Me</a>
-            </motion.button> */}
           </motion.div>
           <motion.img
             variants={textVariants}

@@ -14,14 +14,14 @@ const items = [
     id: 2,
     title: "Flowte",
     img: "../flowteDescriber.png",
-    desc: "Flowte offers software, marketing, e-commerce, point of sale, and CRM solutions for sports stadiums. In collaboration with Flowte, I helped redesign important sections of their website, & managed database migration to upgrade their old database architecture, adhering to modern database standards.",
+    desc: "Flowte provides solutions for software, e-commerce, POS, & CRM systems for sports stadiums. I collaborated with Flowte to redesign key website sections & managed database migration, upgrading their architecture to modern standards.",
     btn: <a href="https://www.flowte.com/" target="_blank">View Live Site</a>
   },
   {
     id: 3,
     title: "Tallon Antiques",
     img: "../tallonAntiquesDescriber.png",
-    desc: "Tallon Antiques is an antique seller specialising in unique & interesting vintage rarities. I am currently developing a bespoke website & e-commerce platform to compliment their unique stylistic business.",
+    desc: "Tallon Antiques is an antique seller specialising in unique & interesting vintage rarities. I am currently developing a bespoke website & e-commerce platform to compliment their unique style.",
     btn: <a href="https://www.tallonantiques.com/" target="_blank">View Live Site</a>
   },
   {
@@ -29,13 +29,13 @@ const items = [
     title: "The Driving Coach",
     img: "../drivingCoachDescriber.png",
     desc: "The Driving Coach is an Irish driving instructor based in Dublin, Ireland. I developed a unique website to allow for customers to easily discover & contact the business.",
-    btn: "No Longer Operational"
+    btn: "No Longer Active"
   },
   {
     id: 5,
     title: "Pocket Botanist",
     img: "../pocketBotanistDescriber.png",
-    desc: "Final year college project consisting of two parts, an Android application & 3D printed device. The application allowed cataloguing & tracking of plants for easier caring schedules, powered by Firebase, along with a camera tool to identify plant types & plant diseases using image classification, powered by a custom TensorFlow model I developed. The device tracked soil moisture content, signaling when watering is needed.",
+    desc: "Developed an Android app with a custom TensorFlow model for plant & disease identification with image recognition. Integrated Firebase for cataloguing & built a 3D-printed device to track soil moisture & signal watering needs via an LED.",
     btn: <a href="https://github.com/Tallon1/PocketBotanist" target="_blank">View GitHub</a>
   },
   {
@@ -49,7 +49,7 @@ const items = [
     id: 7,
     title: "Hands Off Application",
     img: "../handsOffDescriber.png",
-    desc: "This college project was built using motion-tracking software utilises OpenCV to enable the hands free operation of your display, built for the use case of reducing unnecessary contact with touch displays in public during the pandemic.",
+    desc: "Developed a hands-free display control system using OpenCV-based motion tracking, aimed at reducing contact with public touchscreens during the pandemic.",
     btn: <a href="https://github.com/Tallon1/HandsOff" target="_blank">View GitHub</a>
   },
 ];

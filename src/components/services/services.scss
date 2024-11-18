@@ -28,12 +28,27 @@
 .subhead-text {
   @include mobile {
     font-size: 1.5rem !important;
+    margin-left: -20px;
+    margin-bottom: -20px;
   }
 }
 
 .gap-12 {
   @include mobile {
     margin-left: -20px;
+    gap: 1.25rem !important;
+  }
+}
+
+.mt-5 {
+  @include mobile {
+    margin-left: -20px;
+  }
+}
+
+.mt-12 {
+  @include mobile {
+    margin-left: -50px;
     gap: 1.25rem !important;
   }
 }

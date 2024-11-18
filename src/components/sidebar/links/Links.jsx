@@ -31,7 +31,7 @@ const Links = () => {
                 "Contact",
                 <a href="https://www.linkedin.com/in/karl-tallon/" target="_blank">LinkedIn</a>,
                 <a href="https://www.github.com/Tallon1/" target="_blank">GitHub</a>,
-                <a href="https://www.karltallon.com/">Return to Island</a>];
+                <a href="/">Return to Island</a>];
 
   return (
     <motion.div className="links" variants={variants}>

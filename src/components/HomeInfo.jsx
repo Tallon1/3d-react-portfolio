@@ -23,10 +23,14 @@ const HomeInfo = ({ currentStage }) => {
         I've collaborated with a range of companies,<br />picking up a diverse set of skills along the journey
         </p>
 
-        <Link to='/services' className='neo-brutalism-white neo-btn'>
+        <a href="/portfolio#services" className='neo-brutalism-white neo-btn'>
           Learn more
           <img src={arrow} alt='arrow' className='w-4 h-4 object-contain' />
-        </Link>
+        </a>
+        {/* <Link to='/services' className='neo-brutalism-white neo-btn'>
+          Learn more
+          <img src={arrow} alt='arrow' className='w-4 h-4 object-contain' />
+        </Link> */}
       </div>
     );
   }
@@ -38,10 +42,14 @@ const HomeInfo = ({ currentStage }) => {
         Throughout the years, I’ve guided several personal<br />& professional projects to success.<br />Interested in learning more?
         </p>
 
-        <Link to='/works' className='neo-brutalism-white neo-btn'>
+        <a href="/portfolio#works" className='neo-brutalism-white neo-btn'>
           Visit my portfolio
           <img src={arrow} alt='arrow' className='w-4 h-4 object-contain' />
-        </Link>
+        </a>
+        {/* <Link to='/works' className='neo-brutalism-white neo-btn'>
+          Visit my portfolio
+          <img src={arrow} alt='arrow' className='w-4 h-4 object-contain' />
+        </Link> */}
       </div>
     );
   }
@@ -53,7 +61,7 @@ const HomeInfo = ({ currentStage }) => {
       Got a project to tackle or need a skilled developer?<br/>Contact me today!
       </p>
 
-      <a href="http://localhost:5173/portfolio#Contact" className='neo-brutalism-white neo-btn'>
+      <a href="/portfolio#contact" className='neo-brutalism-white neo-btn'>
         Let's talk
         <img src={arrow} alt='arrow' className='w-4 h-4 object-contain' />
       </a>
